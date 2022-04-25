@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sokoban</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body onload="initGame()" onkeyup="handleKey(event)">
+    <h1>Sokoban</h1>
+    <h2 class="score">score: </h2>
+    <h3>
+        <button onclick="resetGame()"> Reset Game </button>
+    </h3>
+    <h3>
+        <button onclick="easyLevel()"> Easy </button>
+        <button onclick="mediumLevel()"> Medium </button>
+        <button onclick="hardLevel()"> Hard </button>
+    </h3>
+
+    <table class="board">
+
+    </table>
+
+    <div class="modal">
+
+        <h3 class="modal-header"> Congratulation, you won!</h3>
+        <button onclick="resetGame()">Play again</button>
+
+    </div>
+
+    <script src="js/util.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,54 @@
+body {
+    text-align: center;
+    background-color: black;
+    color: white
+}
+
+table {
+    margin: auto;
+    margin-top: 10px;
+}
+
+.cell {
+    width: 40px;
+    height: 40px;
+    text-align: center
+}
+
+.cell img {
+    width: 30px;
+    height: 30px;
+    padding-top: 5px;
+}
+
+.floor {
+    background-color: gray;
+}
+
+.wall {
+    background-color: brown;
+}
+
+.target {
+    background-color: #FAFAD2;
+}
+
+.modal {
+    background-color: rgb(247, 64, 64);
+    width: 40%;
+    height: 20%;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    padding: 1px;
+    display: none;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+.green {
+    background-color: greenyellow;
+}
